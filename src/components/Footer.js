@@ -1,7 +1,7 @@
 
-import imgEmailB from "../img/email B.svg";
-import imgLinkedinB from "../img/linkedin B.svg";
-import imgGitHubB from "../img/github B.svg";
+import imgEmailB from "../img/o-email (1) 1.svg";
+import imgLinkedinB from "../img/linkedin (1) 1.svg";
+import imgGitHubB from "../img/github (1) 1.svg";
 
 export default function Footer(){
     return (
