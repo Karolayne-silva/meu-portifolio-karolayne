@@ -18,11 +18,11 @@ a {
 .header ul {
   list-style: none;
   display: flex;
-  gap: 40px;
+  gap: 2.5rem;
 }
 .header ul a {
-  padding: 12px 0px;
-  font-size: 18px;
+  padding: 0.75rem 0rem;
+  font-size: 1.125rem;
   color: black;
   position: relative;
 }
@@ -50,7 +50,7 @@ a {
 }
 
 .titulo-principal {
-  font-size: 75px;
+  font-size: 4.6875rem;
   line-height: 1;
   font-weight: 500;
 }
@@ -59,20 +59,20 @@ a {
 }
 .sp-titulo-1 {
   color: #4c5e91;
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 .sp-titulo-2 {
   color: #8d8d8d;
-  font-size: 60px;
+  font-size: 3.75rem;
   line-height: 1.1;
 }
 .btn-cv {
   color: black;
   border: 3px solid #4c5e91;
-  font-size: 19px;
-  border-radius: 15px;
-  padding: 12px 12px;
+  font-size: 1.1875rem;
+  border-radius: 0.9375rem;
+  padding: 0.75rem 0.75rem;
   text-align: center;
   font-weight: 500;
 }
@@ -82,20 +82,20 @@ a {
   transition: 0.5s;
 }
 .animation {
-  height: 70px;
-  width: 60px;
+  height: 4.375rem;
+  width: 3.75rem;
 }
 .imgs-btn {
   display: flex;
   gap: 460px;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 .imgs-redes {
   display: flex;
-  gap: 10px;
+  gap: 0.625rem;
 }
 .imgs-redes img {
-  height: 55px;
+  height: 3.4375rem;
   cursor: pointer;
 }
 
@@ -114,11 +114,11 @@ a {
   animation: loading 5s infinite;
 }
 .img-letra {
-  height: 27px;
-  width: 30px;
+  height: 1.6875rem;
+  width: 1.875rem;
   position: absolute;
-  top: 21px;
-  left: 17px;
+  top: 1.3125rem;
+  left: 1.0625rem;
 }
 .sc-sobre-in{
   display: grid;
@@ -130,32 +130,32 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  border-radius: 10px;
-  padding: 20px;
-  width: 1100px;
+  border-radius: 0.625rem;
+  padding: 1.25rem;
+  width: 68.75rem;
   box-shadow: 5px 6px 5px 0px rgba(0,0,0,0.04);
 }
 .sc-sobre-in h2 {
   font-weight: 500;
-  font-size: 35px;
-  padding-bottom: 20px;
+  font-size: 2.1875rem;
+  padding-bottom: 1.25rem;
   color: black;
   
 }
 .sc-sobre-in p{
     color: black;
-    font-size: 16px;
+    font-size: 1rem;
 }
 .habilidades{
     color: black;
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    padding-top: 25px;
+    gap: 0.9375rem;
+    padding-top: 1.5625rem;
 }
 .habilidades h3{
     font-weight: 500;
-    font-size: 25px;
+    font-size: 1.5625rem;
     color: black;
 }
 .img-pessoal{
@@ -170,15 +170,15 @@ a {
     
 }
 .habilidades img{
-    height: 35px;
-    margin-right: 25px;
+    height: 2.1875rem;
+    margin-right: 1.5625rem;
 }
 
 .sc-projetos h2{
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 500;
-    padding-top: 60px; 
-    padding-bottom: 50px;
+    padding-top: 3.75rem; 
+    padding-bottom: 3.125rem;
 }
 .sc-projetos h2 span{
   color:#4c5e91;
@@ -188,8 +188,8 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 30px;
-    padding-bottom: 25px;
+    padding-top: 1.875rem;
+    padding-bottom: 1.5625rem;
     gap: 15px;
     color: black;
     border-top: 0.5px solid black;
@@ -226,17 +226,17 @@ a {
 }
 .card-descricao h3{
     font-weight: 500;
-    font-size: 17px;
+    font-size: .0625rem;
 }
 .card-descricao p{
     color:  #8D8D8D;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 .card-links{
     display: flex;
     justify-content: space-between;
-    font-size: 12px;
-    padding-top: 15px;
+    font-size: 0.75rem;
+    padding-top: 0.9375rem;
 }
 .card-links a{
     color: black;
