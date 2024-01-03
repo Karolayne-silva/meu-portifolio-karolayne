@@ -7,7 +7,10 @@ import Footer from "./components/Footer";
 import Projetos from "./components/Projetos";
 
 
+
 function App() {
+  
+  
   return (
     <div style={{ height: "100vh" }}>
       <Header /> 

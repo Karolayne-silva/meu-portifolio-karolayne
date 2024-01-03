@@ -13,17 +13,17 @@ export default function Main() {
           Karolayne Silva<span className="titulo-color">.</span>
         </h1>
         <span className="sp-titulo-2">
-          Desenvolvedora {""}
+          Desenvolvedora {''}
           <span>
-          <Typewriter
-            words={['Front-End.']}
-            loop={Infinity}
-            cursor
-            cursorStyle='|'
-            typeSpeed={70}
-            deleteSpeed={50}
-            delaySpeed={1000}
-          />
+            <Typewriter
+              words={['Front-End.']}
+              loop={Infinity}
+              cursor
+              cursorStyle='|'
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1000}
+            />
           </span>
         </span>
 
