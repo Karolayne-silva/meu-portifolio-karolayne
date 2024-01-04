@@ -9,13 +9,13 @@ export default function Footer(){
         <footer id="contatos">
             <div className="contatos-in">
                 <div className="imgs-redes">
-                    <a href="https://www.linkedin.com/in/karolayne-silvas/">
+                    <a href="https://www.linkedin.com/in/karolayne-silvas/" target="_blank">
                     <img src={imgLinkedinB} alt="linkedin" />
                     </a>
-                    <a href="mailto:karolaynessantoscontato@gmail.com">
+                    <a href="mailto:karolaynessantoscontato@gmail.com" target="_blank">
                     <img src={imgEmailB} alt="Email" />
                     </a>
-                    <a href="https://github.com/Karolayne-silva">
+                    <a href="https://github.com/Karolayne-silva" target="_blank">
                     <img src={imgGitHubB} alt="Github" />
                     </a>
                 </div>

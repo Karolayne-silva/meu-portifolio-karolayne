@@ -1,5 +1,5 @@
 import Card from "../components/CardMissao";
-import { Fade } from "react-awesome-reveal";
+import { Fade, Slide } from "react-awesome-reveal";
 import { data } from "../dados";
 import "../styles/projetos.css";
 
@@ -13,7 +13,7 @@ export default function Projetos() {
         {data.map(
           ({ imgProjeto, nome, descricao, linkGithub, linkProjeto }) => {
             return (
-              <Fade direction="down" delay={200} key={nome}>
+              <Fade direction="down" cascade triggerOnce key={nome}>
                 <Card
                   imgProjeto={imgProjeto}
                   nome={nome}
