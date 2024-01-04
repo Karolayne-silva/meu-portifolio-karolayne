@@ -1,8 +1,8 @@
 import "../styles.css";
-import menu from "../img/icone menu.svg";
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect} from "react";
 import imgLetra from "../img/letra K.svg";
 import animacao from "../img/circulo.svg";
+import "../styles/header.css";
 
 export default function Header() {
   const [hasScrolled, setHasScrolled] = useState(false);
@@ -19,38 +19,33 @@ export default function Header() {
     };
   }, []);
 
-  const navRef = useRef();
-
-  const showNavBar = () => {
-    navRef.current.classList.toggle("responsive-nav");
-  };
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <>
       <header className={hasScrolled ? "header scrolled" : "header"}>
         <div className="header-in">
+
           <div className="imgs-header">
-            <img src={imgLetra} className="img-letra" />
-            <img src={animacao} className="animation"/>
+            <img src={imgLetra} alt="letra k" className="img-letra" />
+            <img src={animacao} alt="circulo" className="animation"/>
           </div>
 
-          <nav className="header-nav" ref={navRef}>
-            <a href="#home">Home</a>
-            <a href="#sobre">Sobre mim</a>
-            <a href="#projetos">Projetos</a>
-            <a href="#contatos">Contatos</a>
-
-            <div className="header-menu">
-              <button onClick={showNavBar} className="nav-btn nav-close-btn">
-                <img src={menu} alt="icone menu" />
-              </button>
-            </div>
-          </nav>
-          <div className="header-menu">
-            <button onClick={showNavBar} className="nav-btn ">
-              <img src={menu} alt="icone menu" />
-            </button>
+          <div className="menu" onClick={()=>{
+            setMenuOpen(!menuOpen);
+          }}>
+              <span></span>
+              <span></span>
+              <span></span>
           </div>
+          
+            <ul className={menuOpen ? "open": ""}>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#sobre">Sobre mim</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#contatos">Contatos</a></li>
+            </ul>
+          
         </div>
         
       </header>

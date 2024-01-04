@@ -7,6 +7,7 @@ import html from "../img/html.png";
 import python from "../img/python.png";
 import git from "../img/git.png";
 import mysql from "../img/mysql.png";
+import "../styles/sobre.css";
 
 
 export default function Sobre(){

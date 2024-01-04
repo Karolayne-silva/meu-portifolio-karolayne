@@ -2,7 +2,8 @@ import imgLinkedin from "../img/linkedin (1) 1.svg";
 import imgGithub from "../img/github (1) 1.svg";
 import imgEmail from "../img/o-email (1) 1.svg";
 import "../styles.css";
-import { Typewriter } from 'react-simple-typewriter'
+import { Typewriter } from 'react-simple-typewriter';
+import "../styles/main.css";
 
 export default function Main() {
   return (
@@ -32,7 +33,7 @@ export default function Main() {
             <a href="https://www.linkedin.com/in/karolayne-silvas/">
               <img src={imgLinkedin} alt="linkedin" />
             </a>
-            <a href="">
+            <a href="mailto:karolaynessantoscontato@gmail.com">
               <img src={imgEmail} alt="linkedin" />
             </a>
             <a href="https://github.com/Karolayne-silva">

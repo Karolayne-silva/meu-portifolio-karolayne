@@ -1,6 +1,7 @@
 import Card from "../components/CardMissao";
 import { Fade } from "react-awesome-reveal";
 import { data } from "../dados";
+import "../styles/projetos.css";
 
 export default function Projetos() {
   return (

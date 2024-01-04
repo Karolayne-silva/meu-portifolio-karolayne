@@ -2,6 +2,7 @@
 import imgEmailB from "../img/o-email (1) 1.svg";
 import imgLinkedinB from "../img/linkedin (1) 1.svg";
 import imgGitHubB from "../img/github (1) 1.svg";
+import "../styles/footer.css";
 
 export default function Footer(){
     return (
@@ -11,7 +12,7 @@ export default function Footer(){
                     <a href="https://www.linkedin.com/in/karolayne-silvas/">
                     <img src={imgLinkedinB} alt="linkedin" />
                     </a>
-                    <a href="">
+                    <a href="mailto:karolaynessantoscontato@gmail.com">
                     <img src={imgEmailB} alt="Email" />
                     </a>
                     <a href="https://github.com/Karolayne-silva">
