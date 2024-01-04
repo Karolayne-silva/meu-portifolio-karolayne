@@ -31,7 +31,7 @@ export default function Header() {
             <img src={animacao} alt="circulo" className="animation"/>
           </div>
 
-          <div className="menu" onClick={()=>{
+          <div  className="menu" onClick={()=>{
             setMenuOpen(!menuOpen);
           }}>
               <span></span>

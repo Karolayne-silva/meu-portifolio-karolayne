@@ -4,6 +4,7 @@ import imgEmail from "../img/o-email (1) 1.svg";
 import "../styles.css";
 import { Typewriter } from 'react-simple-typewriter';
 import "../styles/main.css";
+import resumo from "../pdf/curriculo.pdf";
 
 export default function Main() {
   return (
@@ -30,17 +31,17 @@ export default function Main() {
 
         <div className="imgs-btn">
           <div className="imgs-redes">
-            <a href="https://www.linkedin.com/in/karolayne-silvas/">
+            <a href="https://www.linkedin.com/in/karolayne-silvas/" target="_blank">
               <img src={imgLinkedin} alt="linkedin" />
             </a>
-            <a href="mailto:karolaynessantoscontato@gmail.com">
-              <img src={imgEmail} alt="linkedin" />
+            <a href="mailto:karolaynessantoscontato@gmail.com" target="_blank">
+              <img src={imgEmail} alt="email" />
             </a>
-            <a href="https://github.com/Karolayne-silva">
-              <img src={imgGithub} alt="linkedin" />
+            <a href="https://github.com/Karolayne-silva" target="_blank">
+              <img src={imgGithub} alt="github" />
             </a>
           </div>
-          <a className="btn-cv" href="/">
+          <a className="btn-cv" href={resumo} download="curriculo-karolaynesilva.pdf">
             Download CV
           </a>
         </div>
