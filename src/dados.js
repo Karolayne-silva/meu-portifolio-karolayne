@@ -26,7 +26,8 @@ export const data = [
   {
     nome: "Sistema de submissão de missão",
     imgProjeto: img3,
-    descricao: "tem que explicar direitinho aq",
+    descricao:
+      "Projeto full-stack desenvolvido durante a residência em software do Porto Digital junto à Dispor Energia, utilizando JavaScript, Node.js, MySQL, etc.",
     linkProjeto: "https://disporenergia.netlify.app/perfil",
     linkGithub: "https://github.com/ErikavbSantos/dispor_energia",
   },

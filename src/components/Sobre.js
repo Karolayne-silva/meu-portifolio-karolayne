@@ -36,13 +36,13 @@ export default function Sobre() {
               <h3>Habilidades</h3>
               <div>
                 <img src={css} alt="icone css" />
-                <img src={java} alt="icone js" />
+                <img src={java} alt="icone java" />
                 <img src={rc} alt="icone react" />
-                <img src={js} alt="icone react" />
-                <img src={html} alt="icone react" />
-                <img src={python} alt="icone react" />
-                <img src={git} alt="icone react" />
-                <img src={mysql} alt="icone react" />
+                <img src={js} alt="icone javaScript" />
+                <img src={html} alt="icone html" />
+                <img src={python} alt="icone python" />
+                <img src={git} alt="icone git" />
+                <img src={mysql} alt="icone mysql" />
               </div>
             </div>
           </div>

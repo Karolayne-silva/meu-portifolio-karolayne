@@ -17,11 +17,11 @@ export default function CardMissao({
         <h3>{nome}</h3>
         <p>{descricao}</p>
         <div className="card-links">
-          <a href={linkProjeto}>
+          <a href={linkProjeto} target="_blank">
             <img src={imgLink} alt="icone link" />
             visit
           </a>
-          <a href={linkGithub}>
+          <a href={linkGithub} target="_blank">
             <img src={imgGit} alt="icone github" />
             view code
           </a>
