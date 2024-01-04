@@ -45,7 +45,7 @@ export const data = [
     nome: "Bikcraft",
     imgProjeto: img5,
     descricao:
-      "Projeto desenvolvido no curso da Origamid de um site de vendas de bicicletas. Feito em HTML e CSS.",
+      "Projeto desenvolvido no curso da Origamid de um site de vendas de bicicletas ficticio. Feito em HTML e CSS.",
     linkProjeto: "https://karolayne-silva.github.io/site-bikcraft-origamid/",
     linkGithub: "https://github.com/Karolayne-silva/site-bikcraft-origamid",
   },

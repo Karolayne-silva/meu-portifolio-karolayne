@@ -45,6 +45,7 @@
   flex-direction: column;
   height: 170px;
   justify-content: space-around;
+  gap: 2px;
 }
 .card-descricao h3 {
   font-weight: 500;
@@ -78,11 +79,10 @@
     padding-top: 3rem;
     padding-bottom: 2rem;
   }
-  .sc-projetos{
+  .sc-projetos {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
-  
 }
 @media (max-width: 800px) {
   /* .card-projeto {
