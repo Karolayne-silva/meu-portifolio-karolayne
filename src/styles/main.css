@@ -119,3 +119,15 @@
     line-height: 1.5;
   }
 }
+@media (max-width: 500px) {
+  .titulo-principal {
+    font-size: 3rem;
+  }
+  .sp-titulo-1 {
+    font-size: 1.4rem;
+  }
+  .sp-titulo-2 {
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
+}
