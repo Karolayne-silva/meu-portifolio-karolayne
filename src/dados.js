@@ -24,10 +24,10 @@ export const data = [
       "https://github.com/Karolayne-silva/challenge-frontend-mentor-faq-card",
   },
   {
-    nome: "Sistema de submissão de missão",
+    nome: "Sistema de Submissão de missão",
     imgProjeto: img3,
     descricao:
-      "Projeto full-stack desenvolvido durante a residência em software do Porto Digital junto à Dispor Energia, utilizando JavaScript, Node.js, MySQL, etc.",
+      "Projeto full-stack desenvolvido durante a residência do Porto Digital junto à Dispor Energia, utilizando JavaScript, Node.js, etc.",
     linkProjeto: "https://disporenergia.netlify.app/perfil",
     linkGithub: "https://github.com/ErikavbSantos/dispor_energia",
   },
