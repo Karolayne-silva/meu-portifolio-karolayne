@@ -15,7 +15,7 @@ export default function Sobre() {
       <div className="sc-sobre-in">
         <div className="box-sobre">
           <div className="img-pessoal">
-            <img src={imgPessoal} alt="Karolayne" />
+            <img src={imgPessoal} alt="mulher de cabelo preto cacheado e blusa com listras brancas e pretas " />
           </div>
           <div className="descricao">
             <h2>Sobre mim.</h2>

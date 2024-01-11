@@ -28,7 +28,7 @@ export default function Header() {
 
           <div className="imgs-header">
             <img src={imgLetra} alt="letra k" className="img-letra" />
-            <img src={animacao} alt="circulo" className="animation"/>
+            <img src={animacao} alt="circulo ondulado" className="animation"/>
           </div>
 
           <div  className="menu" onClick={()=>{
