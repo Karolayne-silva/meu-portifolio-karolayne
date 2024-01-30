@@ -3,7 +3,7 @@ import img2 from "./img/projeto 2.png";
 import img3 from "./img/projeto 3.png";
 import img4 from "./img/projeto 4.png";
 import img5 from "./img/projeto 5.png";
-
+import img6 from "./img/projeto6.png";
 export const data = [
   {
     nome: "Calculadora de idade",
@@ -49,4 +49,12 @@ export const data = [
     linkProjeto: "https://karolayne-silva.github.io/site-bikcraft-origamid/",
     linkGithub: "https://github.com/Karolayne-silva/site-bikcraft-origamid",
   },
+  {
+    nome: "Valorant Agents Explorer",
+    imgProjeto: img6,
+    descricao:
+      "Projeto React que utiliza a API do Valorant para fornecer informações detalhadas sobre os agentes do jogo.",
+    linkProjeto: "https://valorantagentsexplorer.netlify.app/",
+    linkGithub: "https://github.com/Karolayne-silva/valorant-agent-explorer",
+  }
 ];
