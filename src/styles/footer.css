@@ -5,5 +5,5 @@
   padding-top: 1.875rem;
   padding-bottom: 1.5625rem;
   gap: 15px;
-  color: black;
+  color: var(--color-text);
 }

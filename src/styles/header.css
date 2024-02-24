@@ -5,7 +5,7 @@
   position: sticky;
   left: 0;
   top: 0;
-  background-color: white;
+  background-color: var(--background-color);
   z-index: 10000;
   width: 100%;
 }
@@ -30,10 +30,10 @@
   display: block;
   padding: 0.75rem 0rem;
   font-size: 1.125rem;
-  color: black;
+  color: var(--color-text);
 }
 .header-in ul li a:hover {
-  color: #4c5e91;
+  color: var(--color-secondary);
 }
 
 .animation {
@@ -78,6 +78,39 @@
   width: 100%;
   background-color: black;
   border-radius: 0.2rem;
+}
+.toggle {
+  visibility: hidden;
+}
+.toggle-container {
+  position: relative;
+  top: -10px;
+}
+.toggle + label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.toggle + label::before {
+  content: "";
+  height: 1.5rem;
+  width: 2.7rem;
+  border-radius: 1rem;
+  background-color: var(--toggle-bg);
+  margin-right: 0.5rem;
+}
+.toggle + label::after {
+  content: "";
+  height: 1rem;
+  width: 1rem;
+  border-radius: 1rem;
+  background-color: var(--toggle-b);
+  margin-right: 0.5rem;
+  position: absolute;
+  left: 0.3rem;
+}
+.toggle:checked + label::after {
+  transform: translateX(100%);
 }
 
 @media (max-width: 1030px) {

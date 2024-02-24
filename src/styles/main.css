@@ -13,21 +13,21 @@
   font-weight: 500;
 }
 .titulo-color {
-  color: #4c5e91;
+  color: var(--color-secundary);
 }
 .sp-titulo-1 {
-  color: #4c5e91;
+  color: var(--color-secundary);
   font-size: 1.875rem;
 }
 
 .sp-titulo-2 {
-  color: #8d8d8d;
+  color: var(--color-card-description);
   font-size: 3.75rem;
   line-height: 1.1;
 }
 .btn-cv {
-  color: black;
-  border: 3px solid #4c5e91;
+  color: var(--color-text);
+  border: 3px solid var(--color-secundary);
   font-size: 1.1875rem;
   border-radius: 0.9375rem;
   padding: 0.75rem 0.75rem;
@@ -35,7 +35,7 @@
   font-weight: 500;
 }
 .btn-cv:hover {
-  background-color: #4c5e91;
+  background-color: var(--color-secundary);
   color: white;
   transition: 0.5s;
 }

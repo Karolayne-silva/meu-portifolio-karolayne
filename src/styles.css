@@ -7,12 +7,28 @@
 a {
   text-decoration: none;
 }
+:root {
+  --background-color: #fff;
+  --color-text: black;
+  --color-secundary: #4c5e91;
+  --color-card-description: #8d8d8d;
+  --toggle-bg: #283452;
+  --toggle-b: #00a6ff;
+  --box-shadow: rgba(0, 0, 0, 0.04);
+  --border: #d7d0d7;
+}
+[data-theme="dark"] {
+  --background-color: #030212;
+  --color-text: white;
+  --color-secundary: #818eb2;
+  --color-card-description: #8d8d8d;
+  --toggle-bg: #f0eb9d;
+  --toggle-b: #ffd000;
+  --box-shadow: rgba(175, 168, 168, 0.04);
+  --border: #242424;
+}
 
-
-
-
-
-
-
-
-
+.app {
+  background-color: var(--background-color);
+  color: var(--color-text);
+}

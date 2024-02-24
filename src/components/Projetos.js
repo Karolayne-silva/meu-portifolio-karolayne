@@ -1,9 +1,9 @@
 import Card from "../components/CardMissao";
-import { Fade, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import { data } from "../dados";
 import "../styles/projetos.css";
 
-export default function Projetos() {
+export default function Projetos({dark}) {
   return (
     <section className="sc-projetos" id="projetos">
       <h2>
@@ -20,6 +20,7 @@ export default function Projetos() {
                   descricao={descricao}
                   linkGithub={linkGithub}
                   linkProjeto={linkProjeto}
+                  dark={dark}
                 />
               </Fade>
             );

@@ -9,7 +9,7 @@
   padding-bottom: 3.125rem;
 }
 .sc-projetos h2 span {
-  color: #4c5e91;
+  color: var(--color-secundary);
 }
 
 .lista-projetos {
@@ -22,7 +22,7 @@
   height: 350px;
   width: 350px;
   border-radius: 10px;
-  border: 1.5px solid #d7d0d7;
+  border: 1.5px solid var(--border);
 }
 .card-projeto:hover {
   transform: scale(1.1);
@@ -52,7 +52,7 @@
   font-size: 18px;
 }
 .card-descricao p {
-  color: #8d8d8d;
+  color: var(--color-card-description);
   font-size: 0.875rem;
 }
 .card-links {
@@ -61,10 +61,10 @@
   font-size: 0.75rem;
 }
 .card-links a {
-  color: black;
+  color: var(--color-text);
 }
 .card-links a:hover {
-  color: #4c5e91;
+  color: var(--color-secundary);
 }
 
 .card-links img {
