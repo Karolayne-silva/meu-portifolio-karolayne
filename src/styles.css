@@ -16,6 +16,7 @@ a {
   --toggle-b: #00a6ff;
   --box-shadow: rgba(0, 0, 0, 0.04);
   --border: #d7d0d7;
+  --bg-transparent: rgba(128, 128, 128, 0.2);
 }
 [data-theme="dark"] {
   --background-color: #030212;
@@ -26,6 +27,7 @@ a {
   --toggle-b: #ffd000;
   --box-shadow: rgba(175, 168, 168, 0.04);
   --border: #242424;
+  --bg-transparent: rgba(103, 114, 145, 0.2);
 }
 
 .app {
