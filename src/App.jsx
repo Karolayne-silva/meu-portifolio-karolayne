@@ -7,7 +7,7 @@ import Projetos from "./components/Projetos";
 import { useEffect, useState } from "react";
 
 function App() {
-  const storedDarkMode = localStorage.getItem("DARK_MODE");
+  const storedDarkMode = localStorage.getItem("DARK_MODE") === "true";
 
   const [dark, setDark] = useState(storedDarkMode);
 
