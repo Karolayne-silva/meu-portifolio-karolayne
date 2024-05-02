@@ -3,8 +3,33 @@ import img2 from "./img/projeto 2.png";
 import img3 from "./img/projeto 3.png";
 import img4 from "./img/projeto 4.png";
 import img5 from "./img/projeto 5.png";
-import img6 from "./img/projeto6.png";
+import img6 from "./img/projeto 6.png";
+import img7 from "./img/projeto 7.png";
 export const data = [
+  {
+    nome: "Todo-list, DoIt",
+    imgProjeto: img7,
+    descricao:
+      "Projeto todo-list utilizando o React.JS e localStorage para a permanência das tarefas.",
+    linkProjeto: "https://doit-todolist.vercel.app/",
+    linkGithub: "https://github.com/Karolayne-silva/todo-list-doit",
+  },
+  {
+    nome: "Valorant Agents Explorer",
+    imgProjeto: img6,
+    descricao:
+      "Projeto React que utiliza a API do Valorant para fornecer informações detalhadas sobre os agentes do jogo.",
+    linkProjeto: "https://valorantagentsexplorer.netlify.app/",
+    linkGithub: "https://github.com/Karolayne-silva/valorant-agent-explorer",
+  },
+  {
+    nome: "Sistema de Submissão de missão",
+    imgProjeto: img3,
+    descricao:
+      "Projeto full-stack desenvolvido durante a residência do Porto Digital junto à Dispor Energia, utilizando JavaScript, Node.js, etc.",
+    linkProjeto: "https://disporenergia.netlify.app/perfil",
+    linkGithub: "https://github.com/ErikavbSantos/dispor_energia",
+  },
   {
     nome: "Calculadora de idade",
     imgProjeto: img1,
@@ -23,14 +48,8 @@ export const data = [
     linkGithub:
       "https://github.com/Karolayne-silva/challenge-frontend-mentor-faq-card",
   },
-  {
-    nome: "Sistema de Submissão de missão",
-    imgProjeto: img3,
-    descricao:
-      "Projeto full-stack desenvolvido durante a residência do Porto Digital junto à Dispor Energia, utilizando JavaScript, Node.js, etc.",
-    linkProjeto: "https://disporenergia.netlify.app/perfil",
-    linkGithub: "https://github.com/ErikavbSantos/dispor_energia",
-  },
+  
+  
   {
     nome: "Portifólio Lobo",
     imgProjeto: img4,
@@ -49,12 +68,5 @@ export const data = [
     linkProjeto: "https://karolayne-silva.github.io/site-bikcraft-origamid/",
     linkGithub: "https://github.com/Karolayne-silva/site-bikcraft-origamid",
   },
-  {
-    nome: "Valorant Agents Explorer",
-    imgProjeto: img6,
-    descricao:
-      "Projeto React que utiliza a API do Valorant para fornecer informações detalhadas sobre os agentes do jogo.",
-    linkProjeto: "https://valorantagentsexplorer.netlify.app/",
-    linkGithub: "https://github.com/Karolayne-silva/valorant-agent-explorer",
-  }
+  
 ];
