@@ -4,7 +4,7 @@ import imgEmail from "../img/o-email (1) 1.svg";
 import "../styles.css";
 import { Typewriter } from 'react-simple-typewriter';
 import "../styles/main.css";
-import resumo from "../pdf/curriculo.pdf";
+
 
 export default function Main() {
   return (
@@ -41,7 +41,7 @@ export default function Main() {
               <img src={imgGithub} alt="github" />
             </a>
           </div>
-          <a className="btn-cv" href={resumo} download="curriculo-karolaynesilva.pdf">
+          <a className="btn-cv"  download="curriculo-karolaynesilva.pdf">
             Download CV
           </a>
         </div>
