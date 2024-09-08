@@ -1,12 +1,14 @@
 import imgPessoal from "../img/eu 1.jpeg";
-import css from "../img/css.png";
-import java from "../img/java.png";
+import css from "../img/css.svg";
 import rc from "../img/biblioteca.png";
-import js from "../img/script-java.png";
-import html from "../img/html.png";
-import python from "../img/python.png";
-import git from "../img/git.png";
-import mysql from "../img/mysql.png";
+import js from "../img/javascript.svg";
+import html from "../img/html.svg";
+import git from "../img/git.svg";
+import mysql from "../img/mysql.svg";
+import tailwind from "../img/tailwindcss.svg";
+import sass from "../img/sass.svg";
+import node from "../img/icons8-nodejs.svg";
+import typescript from "../img/typescript.svg";
 import "../styles/sobre.css";
 
 export default function Sobre() {
@@ -36,12 +38,14 @@ export default function Sobre() {
               <h3>Habilidades</h3>
               <div>
                 <img src={css} alt="icone css" />
-                <img src={java} alt="icone java" />
-                <img src={rc} alt="icone react" />
-                <img src={js} alt="icone javaScript" />
                 <img src={html} alt="icone html" />
-                <img src={python} alt="icone python" />
+                <img src={js} alt="icone javaScript" />
+                <img src={typescript} alt="icone typescript" />
+                <img src={rc} alt="icone react" />
                 <img src={git} alt="icone git" />
+                <img src={tailwind} alt="icone tailwindcss"/>
+                <img src={sass} alt="icone Sass" />
+                <img src={node} alt="icone nodejs" />
                 <img src={mysql} alt="icone mysql" />
               </div>
             </div>
