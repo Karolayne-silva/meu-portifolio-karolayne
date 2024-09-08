@@ -22,7 +22,7 @@ export default function Sobre() {
           <div className="descricao">
             <h2>Sobre mim.</h2>
             <p>
-              Tenho 23 anos, moro em Recife e atualmente imersa no curso de
+              Tenho 23 anos, moro em Recife e sou formada no curso de
               análise e desenvolvimento de sistemas. Tenho profundo interesse
               por livros, series e jogos, é onde me encontro nos momentos de
               descontração e inspiração. A área de desenvolvimento front-End é
